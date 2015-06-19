@@ -30,7 +30,8 @@ The steps carried out in "run_analysis.R" are the following:
 8. The activity vector "y_all" is transformed into a factor (needed later) and the levels are named according to the code in the file "activity_labels", i.e. 1 = WALKING, 2 = WALKING_UPSTAIRS, etc.
 9. Also the id of the subject (variable "subject_all") is converted to a factor (needed later)
 10. Two new columns are added to the data matrix "X": one column contains the id of the subject and the second column contains the activity.
-11. The dataset is transformed into a long and skinny dataset where each row contains one measurement of one variable for a subject performing a particular activity. This is done with the *melt* function using *subject* and *activity* as id varibles and all the other 86 columns as measured variables. 
+11. The dataset is transformed into a long and skinny dataset where each row contains one measurement of one variable for a subject performing a particular activity. This is done with the *melt* function using *subject* and *activity* as id variables and all the other 86 columns as measured variables.
+12. The melted dataset is transformed using the *dcast* function where for each combination of subject id and activity, the mean of the measured variable is computed. The tidy dataset contains 180 rows (30 subjects performing 6 activities) and 86 columns (the 86 variables that contain either the string *mean* or the string *std*). Each cell contains the average value of that variable for the combination subject-activity.
  
 
 
