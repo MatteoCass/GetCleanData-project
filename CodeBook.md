@@ -1,7 +1,19 @@
 # CodeBook
 This code book describes the variables of the final tidy dataset.
 
-1. interaction(subject, activity):
+## Measured signals and raw variables
+The raw variables come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. Time domain signals (prefix 't' to denote time) were captured and then filtered to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another filter. 
+
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
+
+A set of variables was estimated from these signals, including mean and standard deviation. 
+
+## Variables of the final tidy dataset
+Here, only the mean and standard deviations were retained. For each subject and activity several measurements of the same variable were obtained. The tidy dataset contains, for each variable, the average value calculated for each single subject performing a single activity. More specific information on the variables of the tidy dataset are reported below. 
+
+1. interaction(subject, activity): indicates the combination of subject id - activity. The first digit is the id of the subject, following is a *.* and then the name of the activity.
 2. tBodyAcc-mean()-X:
 3. tBodyAcc-mean()-Y:
 4. tBodyAcc-mean()-Z:
