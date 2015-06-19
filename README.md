@@ -13,7 +13,7 @@ The unzipped file contains two subfolders named "train" and "test" which contain
 
 The main folder contains:
 * a file that explains which activity corresponds to the numeric id used in "y_train" and "y_test": "activity_labels"
-* a file that contains the labels of the variables measured in "X_train" and "X_test": "features"
+* a file that contains the labels of the measured variables (i.e. the columns of "X_train" and "X_test"): "features"
 * a file that describes what the measured variables are: "features_info"
 * a file that contains information on the files: "README"
 
