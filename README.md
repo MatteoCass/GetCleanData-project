@@ -1,7 +1,7 @@
 # GetCleanData-project
 ## Repository for the Course "Getting and Cleaning Data"
 
-This README file describes the operations that were carried out to obtain the tidy dataset from the raw data downloaded by using the run_analysis.R code.
+This README file describes the operations that were carried out to obtain the tidy dataset from the downloaded raw data by using the run_analysis.R code.
 
 ## Source files
 
