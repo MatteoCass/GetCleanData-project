@@ -2,37 +2,37 @@
 This code book describes the variables of the final tidy dataset.
 
 ## Measured signals and raw variables
-The raw variables come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. Time domain signals (prefix 't' to denote time) were captured and then filtered to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another filter. 
+The raw variables come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. Time domain signals (prefix 't' to denote time) were captured and then filtered to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (*tBodyAcc-XYZ* and *tGravityAcc-XYZ*) using another filter. 
 
-Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (*tBodyAccJerk-XYZ* and *tBodyGyroJerk-XYZ*). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (*tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag*). 
 
-Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing *fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag*. (Note the 'f' to indicate frequency domain signals). 
 
 A set of variables was estimated from these signals, including mean and standard deviation. 
 
 ## Variables of the final tidy dataset
-Here, only the mean and standard deviations were retained. For each subject and activity several measurements of the same variable were obtained. The tidy dataset contains, for each variable, the average value calculated for each single subject performing a single activity. More specific information on the variables of the tidy dataset are reported below. 
+Here, only the mean and standard deviations were retained. For each subject and activity several measurements of the same variable were obtained. The tidy dataset contains, for each variable, the average value calculated from multiple measurements for each single subject performing a single activity. Information on the variables of the tidy dataset are reported below. 
 
 1. interaction(subject, activity): indicates the combination of subject id - activity. The first digit is the id of the subject, following is a *.* and then the name of the activity.
-2. tBodyAcc-mean()-X:
-3. tBodyAcc-mean()-Y:
-4. tBodyAcc-mean()-Z:
-5. tBodyAcc-std()-X:
-6. tBodyAcc-std()-Y:
-7. tBodyAcc-std()-Z:
-8. tGravityAcc-mean()-X:
-9. tGravityAcc-mean()-Y:
-10. tGravityAcc-mean()-Z:
-11. tGravityAcc-std()-X:
-12. tGravityAcc-std()-Y:
-13. tGravityAcc-std()-Z:
-14. tBodyAccJerk-mean()-X:
-15. tBodyAccJerk-mean()-Y:
-16. tBodyAccJerk-mean()-Z:
-17. tBodyAccJerk-std()-X:
-18. tBodyAccJerk-std()-Y:
-19. tBodyAccJerk-std()-Z:
-20. tBodyGyro-mean()-X:
+2. tBodyAcc-mean()-X: mean body acceleration along X-axis in time domain.
+3. tBodyAcc-mean()-Y: mean body acceleration along Y-axis in time domain.
+4. tBodyAcc-mean()-Z: mean body acceleration along Z-axis in time domain.
+5. tBodyAcc-std()-X: standard deviation of body acceleration along X-axis in time domain.
+6. tBodyAcc-std()-Y: standard deviation of body acceleration along Y-axis in time domain.
+7. tBodyAcc-std()-Z: standard deviation of body acceleration along Z-axis in time domain.
+8. tGravityAcc-mean()-X: mean gravity acceleration along X-axis in time domain.
+9. tGravityAcc-mean()-Y: mean gravity acceleration along Y-axis in time domain.
+10. tGravityAcc-mean()-Z: mean gravity acceleration along Z-axis in time domain.
+11. tGravityAcc-std()-X: standard deviation of gravity acceleration along X-axis in time domain.
+12. tGravityAcc-std()-Y: standard deviation of gravity acceleration along Y-axis in time domain.
+13. tGravityAcc-std()-Z: standard deviation of gravity acceleration along Z-axis in time domain.
+14. tBodyAccJerk-mean()-X: mean of Jerk signals from body acceleration along X-axis in time domain.
+15. tBodyAccJerk-mean()-Y: mean of Jerk signals from body acceleration along Y-axis in time domain.
+16. tBodyAccJerk-mean()-Z: mean of Jerk signals from body acceleration along Z-axis in time domain.
+17. tBodyAccJerk-std()-X: standard deviation of Jerk signals from body acceleration along X-axis in time domain.
+18. tBodyAccJerk-std()-Y: standard deviation of Jerk signals from body acceleration along Y-axis in time domain.
+19. tBodyAccJerk-std()-Z: standard deviation of Jerk signals from body acceleration along Z-axis in time domain.
+20. tBodyGyro-mean()-X: 
 21. tBodyGyro-mean()-Y:
 22. tBodyGyro-mean()-Z:
 23. tBodyGyro-std()-X:
