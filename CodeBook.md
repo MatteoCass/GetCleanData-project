@@ -32,43 +32,43 @@ Here, only the mean and standard deviations were retained. For each subject and 
 17. tBodyAccJerk-std()-X: standard deviation of Jerk signals from body acceleration along X-axis in time domain.
 18. tBodyAccJerk-std()-Y: standard deviation of Jerk signals from body acceleration along Y-axis in time domain.
 19. tBodyAccJerk-std()-Z: standard deviation of Jerk signals from body acceleration along Z-axis in time domain.
-20. tBodyGyro-mean()-X: 
-21. tBodyGyro-mean()-Y:
-22. tBodyGyro-mean()-Z:
-23. tBodyGyro-std()-X:
-24. tBodyGyro-std()-Y:
-25. tBodyGyro-std()-Z:
-26. tBodyGyroJerk-mean()-X:
-27. tBodyGyroJerk-mean()-Y:
-28. tBodyGyroJerk-mean()-Z:
-29. tBodyGyroJerk-std()-X:
-30. tBodyGyroJerk-std()-Y:
-31. tBodyGyroJerk-std()-Z:
-32. tBodyAccMag-mean():
-33. tBodyAccMag-std():
-34. tGravityAccMag-mean():
-35. tGravityAccMag-std():
-36. tBodyAccJerkMag-mean():
-37. tBodyAccJerkMag-std():
-38. tBodyGyroMag-mean():
-39. tBodyGyroMag-std():
-40. tBodyGyroJerkMag-mean():
-41. tBodyGyroJerkMag-std():
-42. fBodyAcc-mean()-X:
-43. fBodyAcc-mean()-Y:
-44. fBodyAcc-mean()-Z:
-45. fBodyAcc-std()-X:
-46. fBodyAcc-std()-Y:
-47. fBodyAcc-std()-Z:
-48. fBodyAcc-meanFreq()-X:
+20. tBodyGyro-mean()-X: mean body angular velocity along X-axis in time domain.
+21. tBodyGyro-mean()-Y: mean body angular velocity along Y-axis in time domain.
+22. tBodyGyro-mean()-Z: mean body angular velocity along Z-axis in time domain.
+23. tBodyGyro-std()-X: standard deviation of body angular velocity along X-axis in time domain.
+24. tBodyGyro-std()-Y: standard deviation of body angular velocity along Y-axis in time domain.
+25. tBodyGyro-std()-Z: standard deviation of body angular velocity along Z-axis in time domain.
+26. tBodyGyroJerk-mean()-X: mean of Jerk signals from body angular velocity along X-axis in time domain.
+27. tBodyGyroJerk-mean()-Y: mean of Jerk signals from body angular velocity along Y-axis in time domain.
+28. tBodyGyroJerk-mean()-Z: mean of Jerk signals from body angular velocity along Z-axis in time domain.
+29. tBodyGyroJerk-std()-X: standard deviation of Jerk signals from body angular velocity along X-axis in time domain.
+30. tBodyGyroJerk-std()-Y: standard deviation of Jerk signals from body angular velocity along Y-axis in time domain.
+31. tBodyGyroJerk-std()-Z: standard deviation of Jerk signals from body angular velocity along Z-axis in time domain.
+32. tBodyAccMag-mean(): mean magnitude of three-dimensional body acceleration in time domain.
+33. tBodyAccMag-std(): standard deviation of magnitude of three-dimensional body acceleration in time domain.
+34. tGravityAccMag-mean(): mean magnitude of three-dimensional gravity acceleration in time domain.
+35. tGravityAccMag-std(): standard deviation of magnitude of three-dimensional gravity acceleration in time domain.
+36. tBodyAccJerkMag-mean(): mean magnitude of three-dimensional Jerk signals from body acceleration in time domain.
+37. tBodyAccJerkMag-std(): standard deviation of magnitude of three-dimensional Jerk signals from body acceleration in time domain.
+38. tBodyGyroMag-mean(): mean magnitude of three-dimensional body angular velcoty in time domain.
+39. tBodyGyroMag-std(): standard deviation of magnitude of three-dimensional body angular velcoty in time domain.
+40. tBodyGyroJerkMag-mean():  mean magnitude of three-dimensional Jerk signals from body angular velcoty in time domain.
+41. tBodyGyroJerkMag-std(): standard deviation of magnitude of three-dimensional Jerk signals from body angular velcoty in time domain.
+42. fBodyAcc-mean()-X: mean body acceleration along X-axis in frequency domain.
+43. fBodyAcc-mean()-Y: mean body acceleration along Y-axis in frequency domain.
+44. fBodyAcc-mean()-Z: mean body acceleration along Z-axis in frequency domain.
+45. fBodyAcc-std()-X: standard deviation of body acceleration along X-axis in frequency domain.
+46. fBodyAcc-std()-Y: standard deviation of body acceleration along Y-axis in frequency domain.
+47. fBodyAcc-std()-Z: standard deviation of body acceleration along Z-axis in frequency domain.
+48. fBodyAcc-meanFreq()-X: 
 49. fBodyAcc-meanFreq()-Y:
 50. fBodyAcc-meanFreq()-Z:
-51. fBodyAccJerk-mean()-X:
-52. fBodyAccJerk-mean()-Y:
-53. fBodyAccJerk-mean()-Z:
-54. fBodyAccJerk-std()-X:
-55. fBodyAccJerk-std()-Y:
-56. fBodyAccJerk-std()-Z:
+51. fBodyAccJerk-mean()-X: mean of Jerk signals from body acceleration along X-axis in frequency domain.
+52. fBodyAccJerk-mean()-Y: mean of Jerk signals from body acceleration along Y-axis in frequency domain.
+53. fBodyAccJerk-mean()-Z: mean of Jerk signals from body acceleration along Z-axis in frequency domain.
+54. fBodyAccJerk-std()-X: standard deviation of Jerk signals from body acceleration along X-axis in frequency domain.
+55. fBodyAccJerk-std()-Y: standard deviation of Jerk signals from body acceleration along Y-axis in frequency domain.
+56. fBodyAccJerk-std()-Z: standard deviation of Jerk signals from body acceleration along Z-axis in frequency domain.
 57. fBodyAccJerk-meanFreq()-X:
 58. fBodyAccJerk-meanFreq()-Y:
 59. fBodyAccJerk-meanFreq()-Z:
