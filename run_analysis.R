@@ -28,7 +28,7 @@ subject_all <- rbind(subject_train,subject_test)
 
 # find variables that are "mean" and "std" of something and generate a sorted list of indices
 # used for subsetting (retaining) only those variables 
-v_mean<-grep("mean", features[,2], ignore.case = TRUE,value=FALSE)
+v_mean<-grep("mean()", features[,2], ignore.case = FALSE,value=FALSE)
 v_freq <- grep("meanFreq()", features[,2], ignore.case = FALSE,value=FALSE)
         # remove meanFreq
         ind_in = logical(length = length(v_mean))
@@ -38,7 +38,7 @@ v_freq <- grep("meanFreq()", features[,2], ignore.case = FALSE,value=FALSE)
                 }
         }
 v_mean<-v_mean[ind_in]
-v_std<-grep("std", features[,2], ignore.case = TRUE,value=FALSE)
+v_std<-grep("std()", features[,2], ignore.case = TRUE,value=FALSE)
 v_to_retain <-sort(c(v_mean,v_std))
 
 # Subset X_all retaining only variables that are "mean" or "std"
